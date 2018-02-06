@@ -1,0 +1,40 @@
+
+-# .container-fluid
+-#   .projects
+-#     %h2 All my projects
+-#     %ul.list-unstyled
+-#     - data.projects.each do |project|
+-#       %li.media
+-#         %img.mr-3{:alt => "Generic placeholder image", :src => "/images/#{project[:coverimage]}.png"}/
+-#         .media-body
+-#           %h5.mt-0.mb-1= project[:name]
+-#           %p= project[:description]
+-#
+.container-fluid.bg-dark
+  .row
+    .col-md-6.height-full.left-col
+      .cols
+        %h1 My Awesome Project #1
+        %br
+        %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula sem sit amet risus pellentesque, at facilisis ipsum euismod. Aliquam interdum pharetra diam et imperdiet. 
+        %br
+        Vestibulum placerat arcu lectus, ut suscipit nisi maximus ac. In hac habitasse platea dictumst. Nulla eros urna, condimentum ac suscipit at, mollis sit amet metus. Aliquam vitae tristique lectus, a eleifend lorem. Suspendisse potenti. Nulla facilisi. Morbi sollicitudin egestas molestie. Duis non lectus pulvinar, ultricies sem sit amet, blandit eros.
+    .col-md-6.height-full.right
+      .cols
+        = partial 'partials/_come-at-me'
+.container-fluid.middle
+  .container.my-other-projects
+    %h3 Some of my other projects
+    %br
+    .row
+      - data.projects.each do |project|
+        .col-md-4
+          .card.mb-4.box-shadow
+            %img.card-img-top{:alt => "Thumbnail [100%x225]", "data-holder-rendered" => "true", "data-src" => "holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail", :src => "/images/#{project[:coverimage]}.png", :style => "height: 225px; width: 100%; display: block;"}/
+            .card-body
+              %p.card-text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+              .d-flex.justify-content-between.align-items-center
+                .btn-group
+                  %button.btn.btn-sm.btn-outline-secondary{:type => "button"} View
+                  %button.btn.btn-sm.btn-outline-secondary{:type => "button"} Edit
+                %small.text-muted 9 mins

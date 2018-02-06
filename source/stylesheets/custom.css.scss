@@ -1,0 +1,40 @@
+.height-full {
+  height: 100vh;
+}
+
+.bg-dark {
+  color: #fff;
+  z-index: 1;
+  background-color: white;
+  position: relative;
+}
+
+.cols {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  //border: 1px dashed deeppink;
+  color: #fff;
+  overflow: hidden;
+  //margin-bottom: -15px;
+}
+
+.my-other-projects {
+  margin-top: 45px;
+}
+
+.left-col { background: url('../images/pang-cover-dark.png') center center fixed; }
+
+hr { background-color: #fff; height: 1px; border: 0; }
+
+.right { background-color: #3c3e4e; }
+
+.middle {
+  text-align: center;
+  margin-top: 0px;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  z-index: 2;
+  position: relative;
+}

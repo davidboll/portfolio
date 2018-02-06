@@ -1,5 +1,39 @@
 - name: My First Website
   description: Simple HTML5 site I've build during the PrepCourse
+  coverimage: 'pang-cover'
+  date: '2018-01-05'
 
 - name: FizzBuzz
   description: My first Test driven ruby project
+  coverimage: 'pang-cover'
+  date: '2018-01-05'
+
+- name: My First Website
+  description: Simple HTML5 site I've build during the PrepCourse
+  coverimage: 'pang-cover'
+  date: '2018-01-05'
+
+- name: My First Website
+  description: Simple HTML5 site I've build during the PrepCourse
+  coverimage: 'pang-cover'
+  date: '2018-01-05'
+
+- name: FizzBuzz
+  description: My first Test driven ruby project
+  coverimage: 'pang-cover'
+  date: '2018-01-05'
+
+- name: My First Website
+  description: Simple HTML5 site I've build during the PrepCourse
+  coverimage: 'pang-cover'
+  date: '2018-01-05'
+
+# - name: FizzBuzz
+#   description: My first Test driven ruby project
+#   coverimage: 'fizz-buzz-cover.png'
+#   date: '2018-01-05'
+#
+# - name: FizzBuzz
+#   description: My first Test driven ruby project
+#   coverimage: 'fizz-buzz-cover.png'
+#   date: '2018-01-05'
