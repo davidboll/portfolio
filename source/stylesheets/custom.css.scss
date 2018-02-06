@@ -24,7 +24,7 @@
   margin-top: 45px;
 }
 
-.left-col { background: url('../images/pang-cover-dark.png') center center fixed; }
+.left-col{ }
 
 hr { background-color: #fff; height: 1px; border: 0; }
 
@@ -37,4 +37,16 @@ hr { background-color: #fff; height: 1px; border: 0; }
   border-top: 1px solid #eee;
   z-index: 2;
   position: relative;
+}
+
+footer {
+  margin-bottom: 0;
+  bottom: 0;
+  position:relative;
+  height: 15vh;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  padding-top: 35px;
+  color: #fff;
+  background-color: #3c3e4e;
 }

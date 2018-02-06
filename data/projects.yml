@@ -1,29 +1,35 @@
 - name: My First Website
+  short_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula sem sit amet risus pellentesque.
   description: Simple HTML5 site I've build during the PrepCourse
   coverimage: 'pang-cover'
   date: '2018-01-05'
 
 - name: FizzBuzz
+  short_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula sem sit amet risus pellentesque.
   description: My first Test driven ruby project
-  coverimage: 'pang-cover'
-  date: '2018-01-05'
+  coverimage: mario-cover
+  date: 2018-01-05
 
 - name: My First Website
+  short_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula sem sit amet risus pellentesque.
   description: Simple HTML5 site I've build during the PrepCourse
-  coverimage: 'pang-cover'
+  coverimage: pang-cover
   date: '2018-01-05'
 
 - name: My First Website
+  short_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula sem sit amet risus pellentesque.
   description: Simple HTML5 site I've build during the PrepCourse
   coverimage: 'pang-cover'
   date: '2018-01-05'
 
 - name: FizzBuzz
+  short_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula sem sit amet risus pellentesque.
   description: My first Test driven ruby project
   coverimage: 'pang-cover'
   date: '2018-01-05'
 
 - name: My First Website
+  short_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula sem sit amet risus pellentesque.
   description: Simple HTML5 site I've build during the PrepCourse
   coverimage: 'pang-cover'
   date: '2018-01-05'

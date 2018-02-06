@@ -1,4 +1,4 @@
-describe 'Index Page', type: :feature do
+describe 'Projects Page', type: :feature do
   it 'displays project list' do
     visit '/'
 
@@ -18,5 +18,16 @@ describe 'Index Page', type: :feature do
       expect(page).to have_content 'Built using the awesome Middleman framework'
     end
   end
+
+  it 'renders projects' do
+    visit '/'
+
+    expect(page).to have_selector 'come-at-me'
+    within 'come-at-me' do
+      expect(page).to have_content 'See project on GitHub'
+      expect(page).to have_content '.. or just hire me - I need the cash to feed my friend @Holger!!!'
+    end
+  end
+
 
 end
