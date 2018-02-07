@@ -1,7 +1,3 @@
-.height-full {
-  height: 100vh;
-}
-
 .bg-dark {
   color: #fff;
   z-index: 1;
@@ -9,15 +5,40 @@
   position: relative;
 }
 
-.cols {
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
-  //border: 1px dashed deeppink;
-  color: #fff;
-  overflow: hidden;
-  //margin-bottom: -15px;
+@media (min-width: 768px) {
+  .height-full {
+    height: 100vh;
+  }
+
+  .cols {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    //border: 1px dashed deeppink;
+    color: #fff;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0 auto;
+    //margin-bottom: -15px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .height-full {
+    height: 100%;
+  }
+  .cols {
+    padding: 20px;
+    //border: 1px dashed deeppink;
+    position:relative;
+    color: #fff;
+    overflow: hidden;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    //margin-bottom: -15px;
+  }
 }
 
 .my-other-projects {
