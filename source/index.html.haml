@@ -1,11 +1,25 @@
 .container-fluid
-  %h1 Welcome to my portfolio..
-
-  .projects
-    %h2 My projects
-    - data.projects.each do |project|
-      %img(src="/images/#{project[:coverimage]}")
-      %h4= project[:name]
-      %p= project[:description]
-
-= partial 'partials/footer'
+  .row
+    .col{style: "background-image: url(images/david-cover-dark.png); background-attachment: fixed; background-position: center center; background-repeat: no-repeat; height: 100vh;"}
+      .cols.welcome
+        %h1
+          %span{style: "text-decoration: line-through;"}My portfolio
+          ( A [WIP] )
+        %br
+        %h5 So, this is my portfolio.. I'm David by the way.. scroll down
+.container-fluid.middle
+  .row
+    .col{style: "background-color: #cf6a87; color: #fff; border-top: 0;"}
+      %br
+      %br
+      %br
+      %br
+      %h2 Welcome!
+      %br
+      %h4 So.. who's this David that you have been hearing so much about?
+      %br
+      %p Well, David is an amazing person. He loves alot and laughs alot
+      %br
+      %br
+      %br
+      %br

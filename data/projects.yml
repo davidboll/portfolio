@@ -1,38 +1,42 @@
-- name: My First Website
-  short_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula sem sit amet risus pellentesque.
-  description: Simple HTML5 site I've build during the PrepCourse
-  coverimage: 'pang-cover'
-  date: '2018-01-05'
-
-- name: FizzBuzz
-  short_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula sem sit amet risus pellentesque.
-  description: My first Test driven ruby project
-  coverimage: mario-cover
+- id: 0
+  name: BMI Challenge
+  short_description: Calculate your BMI-value.
+  tags: JavaScript, HTML
+  coverimage: 'bmi-cover'
   date: 2018-01-05
+  internal_link: bmi-challange.html
+  external_link: https://github.com/kmthorsnes/BMIChallenge
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra id urna sed blandit. Nulla eleifend nulla ornare, cursus nisl ut, tempor orci. Nam non gravida ante, ac ornare purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras molestie id lacus eu aliquam. Pellentesque scelerisque tincidunt magna ut sollicitudin. Phasellus finibus dui odio, vitae lobortis orci consectetur at. Aenean luctus lectus eu viverra accumsan. Proin vitae aliquam sapien. Vivamus egestas libero et lectus sagittis vulputate. Nunc ex mauris, condimentum eu lobortis at, lobortis sagittis metus. <br><br>Nulla tempus, nibh ut fringilla pharetra, nulla lorem mattis urna, quis dapibus eros magna eu enim. Cras risus est, commodo ac tortor at, placerat pulvinar ipsum. Vestibulum egestas laoreet metus, quis tristique elit sagittis sit amet. Nam quis ante consequat, rutrum tellus sed, ullamcorper risus. Sed egestas nulla id est vestibulum placerat. Praesent vitae velit a risus venenatis maximus non nec massa. Sed eget velit et nisl feugiat rutrum.<br><br>Etiam venenatis pulvinar elementum. Aliquam erat volutpat. In rhoncus ac nunc eu accumsan. Morbi id massa tempor, porta eros at, dictum risus. Aliquam pharetra semper eros in aliquet. Suspendisse velit turpis, lobortis quis turpis nec, ullamcorper blandit nunc. In eget rhoncus arcu, et tempor neque. Mauris sodales tortor vitae turpis eleifend viverra."
 
-- name: My First Website
-  short_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula sem sit amet risus pellentesque.
-  description: Simple HTML5 site I've build during the PrepCourse
-  coverimage: pang-cover
-  date: '2018-01-05'
+- id: 1
+  name: FizzBuzz
+  short_description: A group word game for kidz
+  tags: Ruby
+  coverimage: fizzbuzz-cover
+  date: 2018-01-06
+  internal_link: fizz-buzz.html
+  external_link: https://github.com/davidboll/Fizz-buzz
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra id urna sed blandit. Nulla eleifend nulla ornare, cursus nisl ut, tempor orci. Nam non gravida ante, ac ornare purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras molestie id lacus eu aliquam. Pellentesque scelerisque tincidunt magna ut sollicitudin. Phasellus finibus dui odio, vitae lobortis orci consectetur at. Aenean luctus lectus eu viverra accumsan. Proin vitae aliquam sapien. Vivamus egestas libero et lectus sagittis vulputate. Nunc ex mauris, condimentum eu lobortis at, lobortis sagittis metus. <br><br>Nulla tempus, nibh ut fringilla pharetra, nulla lorem mattis urna, quis dapibus eros magna eu enim. Cras risus est, commodo ac tortor at, placerat pulvinar ipsum. Vestibulum egestas laoreet metus, quis tristique elit sagittis sit amet. Nam quis ante consequat, rutrum tellus sed, ullamcorper risus. Sed egestas nulla id est vestibulum placerat. Praesent vitae velit a risus venenatis maximus non nec massa. Sed eget velit et nisl feugiat rutrum.<br><br>Etiam venenatis pulvinar elementum. Aliquam erat volutpat. In rhoncus ac nunc eu accumsan. Morbi id massa tempor, porta eros at, dictum risus. Aliquam pharetra semper eros in aliquet. Suspendisse velit turpis, lobortis quis turpis nec, ullamcorper blandit nunc. In eget rhoncus arcu, et tempor neque. Mauris sodales tortor vitae turpis eleifend viverra."
 
-- name: My First Website
-  short_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula sem sit amet risus pellentesque.
-  description: Simple HTML5 site I've build during the PrepCourse
-  coverimage: 'pang-cover'
-  date: '2018-01-05'
+- id: 2
+  name: Cooper test
+  short_description: The dreaded "cooper test"
+  tags: JavaScript
+  coverimage: cooper-cover
+  date: 2018-02-03
+  internal_link: cooper-test.html
+  external_link: https://github.com/kmthorsnes/cooper_test
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra id urna sed blandit. Nulla eleifend nulla ornare, cursus nisl ut, tempor orci. Nam non gravida ante, ac ornare purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras molestie id lacus eu aliquam. Pellentesque scelerisque tincidunt magna ut sollicitudin. Phasellus finibus dui odio, vitae lobortis orci consectetur at. Aenean luctus lectus eu viverra accumsan. Proin vitae aliquam sapien. Vivamus egestas libero et lectus sagittis vulputate. Nunc ex mauris, condimentum eu lobortis at, lobortis sagittis metus. <br><br>Nulla tempus, nibh ut fringilla pharetra, nulla lorem mattis urna, quis dapibus eros magna eu enim. Cras risus est, commodo ac tortor at, placerat pulvinar ipsum. Vestibulum egestas laoreet metus, quis tristique elit sagittis sit amet. Nam quis ante consequat, rutrum tellus sed, ullamcorper risus. Sed egestas nulla id est vestibulum placerat. Praesent vitae velit a risus venenatis maximus non nec massa. Sed eget velit et nisl feugiat rutrum.<br><br>Etiam venenatis pulvinar elementum. Aliquam erat volutpat. In rhoncus ac nunc eu accumsan. Morbi id massa tempor, porta eros at, dictum risus. Aliquam pharetra semper eros in aliquet. Suspendisse velit turpis, lobortis quis turpis nec, ullamcorper blandit nunc. In eget rhoncus arcu, et tempor neque. Mauris sodales tortor vitae turpis eleifend viverra."
 
-- name: FizzBuzz
-  short_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula sem sit amet risus pellentesque.
-  description: My first Test driven ruby project
-  coverimage: 'pang-cover'
-  date: '2018-01-05'
-
-- name: My First Website
-  short_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula sem sit amet risus pellentesque.
-  description: Simple HTML5 site I've build during the PrepCourse
-  coverimage: 'pang-cover'
-  date: '2018-01-05'
+- id: 3
+  name: Library Challange
+  short_description: Check out a book in a virtual library
+  coverimage: library-cover
+  tags: Ruby
+  date: 2018-01-29
+  internal_link: library-challange.html
+  external_link: https://github.com/davidboll/library-challenge
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra id urna sed blandit. Nulla eleifend nulla ornare, cursus nisl ut, tempor orci. Nam non gravida ante, ac ornare purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras molestie id lacus eu aliquam. Pellentesque scelerisque tincidunt magna ut sollicitudin. Phasellus finibus dui odio, vitae lobortis orci consectetur at. Aenean luctus lectus eu viverra accumsan. Proin vitae aliquam sapien. Vivamus egestas libero et lectus sagittis vulputate. Nunc ex mauris, condimentum eu lobortis at, lobortis sagittis metus. <br><br>Nulla tempus, nibh ut fringilla pharetra, nulla lorem mattis urna, quis dapibus eros magna eu enim. Cras risus est, commodo ac tortor at, placerat pulvinar ipsum. Vestibulum egestas laoreet metus, quis tristique elit sagittis sit amet. Nam quis ante consequat, rutrum tellus sed, ullamcorper risus. Sed egestas nulla id est vestibulum placerat. Praesent vitae velit a risus venenatis maximus non nec massa. Sed eget velit et nisl feugiat rutrum.<br><br>Etiam venenatis pulvinar elementum. Aliquam erat volutpat. In rhoncus ac nunc eu accumsan. Morbi id massa tempor, porta eros at, dictum risus. Aliquam pharetra semper eros in aliquet. Suspendisse velit turpis, lobortis quis turpis nec, ullamcorper blandit nunc. In eget rhoncus arcu, et tempor neque. Mauris sodales tortor vitae turpis eleifend viverra."
 
 # - name: FizzBuzz
 #   description: My first Test driven ruby project
