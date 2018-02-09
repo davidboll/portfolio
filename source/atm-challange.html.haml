@@ -1,4 +1,4 @@
-- project = data.projects.select { |project| project[:id] == 2 }.first
+- project = data.projects.select { |project| project[:id] == 4 }.first
 %a.getback{:href => 'index.html'}> << Take me back home
 .container-fluid.bg-dark
   .row
@@ -12,13 +12,13 @@
 
 .container-fluid
   .row
-    .col.description{style: "background-color: #cc8e35;"}
+    .col.description{style: "background-color: #218c74;"}
       .cols.singleProject
         %h1= project[:name]
         %br
         %p= project[:description]
         %br
-        .cols{style: "text-align: center;"}
+        .cols
           %hr
           %br
           %br

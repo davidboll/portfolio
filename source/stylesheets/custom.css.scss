@@ -53,6 +53,17 @@ a:hover {
   transform: translate(-50%,-50%);
 }
 
+.aboutMe {
+  background-color: #cf6a87;
+  border-top: 0;
+  color: #fff;
+  padding: 150px 50px;
+}
+
+.singleProject {
+  text-align: center;
+}
+
 .otherProjects {
   color: #fff;
   left: 50%;
@@ -119,6 +130,7 @@ hr {
 .description {
   color: #fff;
   padding: 50px;
+  z-index: 800;
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .card-body {
@@ -161,7 +173,7 @@ hr {
   text-align: center;
   margin-top: 0;
   background-color: #fff;
-  border-top: 1px solid #eee;
+  //border-top: 1px solid #eee;
   z-index: 2;
   position: relative;
 }

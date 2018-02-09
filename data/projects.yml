@@ -6,17 +6,9 @@
   date: 2018-01-05
   internal_link: bmi-challange.html
   external_link: https://github.com/kmthorsnes/BMIChallenge
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra id urna sed blandit. Nulla eleifend nulla ornare, cursus nisl ut, tempor orci. Nam non gravida ante, ac ornare purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras molestie id lacus eu aliquam. Pellentesque scelerisque tincidunt magna ut sollicitudin. Phasellus finibus dui odio, vitae lobortis orci consectetur at. Aenean luctus lectus eu viverra accumsan. Proin vitae aliquam sapien. Vivamus egestas libero et lectus sagittis vulputate. Nunc ex mauris, condimentum eu lobortis at, lobortis sagittis metus. <br><br>Nulla tempus, nibh ut fringilla pharetra, nulla lorem mattis urna, quis dapibus eros magna eu enim. Cras risus est, commodo ac tortor at, placerat pulvinar ipsum. Vestibulum egestas laoreet metus, quis tristique elit sagittis sit amet. Nam quis ante consequat, rutrum tellus sed, ullamcorper risus. Sed egestas nulla id est vestibulum placerat. Praesent vitae velit a risus venenatis maximus non nec massa. Sed eget velit et nisl feugiat rutrum.<br><br>Etiam venenatis pulvinar elementum. Aliquam erat volutpat. In rhoncus ac nunc eu accumsan. Morbi id massa tempor, porta eros at, dictum risus. Aliquam pharetra semper eros in aliquet. Suspendisse velit turpis, lobortis quis turpis nec, ullamcorper blandit nunc. In eget rhoncus arcu, et tempor neque. Mauris sodales tortor vitae turpis eleifend viverra."
-
-- id: 1
-  name: FizzBuzz
-  short_description: A group word game for kidz
-  tags: Ruby
-  coverimage: fizzbuzz-cover
-  date: 2018-01-06
-  internal_link: fizz-buzz.html
-  external_link: https://github.com/davidboll/Fizz-buzz
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra id urna sed blandit. Nulla eleifend nulla ornare, cursus nisl ut, tempor orci. Nam non gravida ante, ac ornare purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras molestie id lacus eu aliquam. Pellentesque scelerisque tincidunt magna ut sollicitudin. Phasellus finibus dui odio, vitae lobortis orci consectetur at. Aenean luctus lectus eu viverra accumsan. Proin vitae aliquam sapien. Vivamus egestas libero et lectus sagittis vulputate. Nunc ex mauris, condimentum eu lobortis at, lobortis sagittis metus. <br><br>Nulla tempus, nibh ut fringilla pharetra, nulla lorem mattis urna, quis dapibus eros magna eu enim. Cras risus est, commodo ac tortor at, placerat pulvinar ipsum. Vestibulum egestas laoreet metus, quis tristique elit sagittis sit amet. Nam quis ante consequat, rutrum tellus sed, ullamcorper risus. Sed egestas nulla id est vestibulum placerat. Praesent vitae velit a risus venenatis maximus non nec massa. Sed eget velit et nisl feugiat rutrum.<br><br>Etiam venenatis pulvinar elementum. Aliquam erat volutpat. In rhoncus ac nunc eu accumsan. Morbi id massa tempor, porta eros at, dictum risus. Aliquam pharetra semper eros in aliquet. Suspendisse velit turpis, lobortis quis turpis nec, ullamcorper blandit nunc. In eget rhoncus arcu, et tempor neque. Mauris sodales tortor vitae turpis eleifend viverra."
+  description: So this is the BMI-Challange - The "challange" this week was to create a calculator using JavaScript.
+   <br><br><b><i>"Body mass index (BMI) is a simple tool that is generally used to estimate the total amount of body fat. In this challenge we will write a JavaScript program that calculates a individuals BMI index".</i></b>
+   <br><br>This was a great challange that forced us to really put our new knowlege about JavaScript to the test.
 
 - id: 2
   name: Cooper test
@@ -26,7 +18,9 @@
   date: 2018-02-03
   internal_link: cooper-test.html
   external_link: https://github.com/kmthorsnes/cooper_test
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra id urna sed blandit. Nulla eleifend nulla ornare, cursus nisl ut, tempor orci. Nam non gravida ante, ac ornare purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras molestie id lacus eu aliquam. Pellentesque scelerisque tincidunt magna ut sollicitudin. Phasellus finibus dui odio, vitae lobortis orci consectetur at. Aenean luctus lectus eu viverra accumsan. Proin vitae aliquam sapien. Vivamus egestas libero et lectus sagittis vulputate. Nunc ex mauris, condimentum eu lobortis at, lobortis sagittis metus. <br><br>Nulla tempus, nibh ut fringilla pharetra, nulla lorem mattis urna, quis dapibus eros magna eu enim. Cras risus est, commodo ac tortor at, placerat pulvinar ipsum. Vestibulum egestas laoreet metus, quis tristique elit sagittis sit amet. Nam quis ante consequat, rutrum tellus sed, ullamcorper risus. Sed egestas nulla id est vestibulum placerat. Praesent vitae velit a risus venenatis maximus non nec massa. Sed eget velit et nisl feugiat rutrum.<br><br>Etiam venenatis pulvinar elementum. Aliquam erat volutpat. In rhoncus ac nunc eu accumsan. Morbi id massa tempor, porta eros at, dictum risus. Aliquam pharetra semper eros in aliquet. Suspendisse velit turpis, lobortis quis turpis nec, ullamcorper blandit nunc. In eget rhoncus arcu, et tempor neque. Mauris sodales tortor vitae turpis eleifend viverra."
+  description: The "challange" this weekend was to be able to return a evaluation depending on a persons age, gender and distance using JavaScript.
+   <br><br><b><i>"The Cooper Test is used to monitor the development of a person's aerobic endurance and to obtain an estimate of their VO2 max. The challenge is to build a JavaScript-based solution that will make it possible make the calculation, based on a person's performance in order to get an assessment of their aerobic endurance, in accordance to the Cooper Normative Data Table.".</i></b>
+   <br><br>This was a great challange that forced us to really put our new knowlege about JavaScript to the test.
 
 - id: 3
   name: Library Challange
@@ -36,7 +30,22 @@
   date: 2018-01-29
   internal_link: library-challange.html
   external_link: https://github.com/davidboll/library-challenge
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra id urna sed blandit. Nulla eleifend nulla ornare, cursus nisl ut, tempor orci. Nam non gravida ante, ac ornare purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras molestie id lacus eu aliquam. Pellentesque scelerisque tincidunt magna ut sollicitudin. Phasellus finibus dui odio, vitae lobortis orci consectetur at. Aenean luctus lectus eu viverra accumsan. Proin vitae aliquam sapien. Vivamus egestas libero et lectus sagittis vulputate. Nunc ex mauris, condimentum eu lobortis at, lobortis sagittis metus. <br><br>Nulla tempus, nibh ut fringilla pharetra, nulla lorem mattis urna, quis dapibus eros magna eu enim. Cras risus est, commodo ac tortor at, placerat pulvinar ipsum. Vestibulum egestas laoreet metus, quis tristique elit sagittis sit amet. Nam quis ante consequat, rutrum tellus sed, ullamcorper risus. Sed egestas nulla id est vestibulum placerat. Praesent vitae velit a risus venenatis maximus non nec massa. Sed eget velit et nisl feugiat rutrum.<br><br>Etiam venenatis pulvinar elementum. Aliquam erat volutpat. In rhoncus ac nunc eu accumsan. Morbi id massa tempor, porta eros at, dictum risus. Aliquam pharetra semper eros in aliquet. Suspendisse velit turpis, lobortis quis turpis nec, ullamcorper blandit nunc. In eget rhoncus arcu, et tempor neque. Mauris sodales tortor vitae turpis eleifend viverra."
+  description: So this is the Library-Challange - The "challange" this week was to create a virtual library using Ruby.
+   <br><br><b><i>"We need an app where both the visitors and the library can see if a list of books is available, it would be nice to see both the title and the author of the book. The library needs to store these books in a file where we can easily check if a book is available or not. The library also needs the visitors to check out books after finding the title they want. Depending on the time of the checkout the library needs the books to be returned within a month and obviously, it would be nice for the visitor to know which date to return the book."</i></b>
+   <br><br>This was a great challange that forced us to really put our new knowlege about Ruby to the test.
+
+- id: 4
+  name: ATM Challange
+  short_description: Ca$h is King!
+  coverimage: atm-cover
+  tags: Ruby
+  date: 2018-01-22
+  internal_link: atm-challange.html
+  external_link: https://github.com/davidboll/atm-demo
+  description: The "challange" this week was to create a virtual ATM-machine using Ruby.
+   <br><br><b><i>"Our client is a financial institution that wants to allow its customers to withdraw funds from their accounts using an Automatic Teller Machine (ATM). They have turned to us for a prototype of a system with limited functionality. Our job is to write a simple Ruby program that can be run in the Interactive Ruby Shell (IRB)."</i></b>
+   <br><br>This was a great challange that forced us to really put our new knowlege about Ruby to the test.
+
 
 # - name: FizzBuzz
 #   description: My first Test driven ruby project
