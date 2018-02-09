@@ -12,7 +12,7 @@ We are learning HTML, JavaScript, CSS and having all the parts and bits working 
 
 ## So how does it look?
 
-Well fortunately for you I've added my site to GitHub-pages so you can see my portfolio right here --> https://davidboll.github.io/portfolio/
+Well fortunately for you I've added my site to GitHub-pages so you can see my portfolio right here --> https://davidboll.github.io/portfolio/ I've also deployd on my own domain - https://portfolio.davidboll.se/ :)
 
 ## Acconlegements
 
