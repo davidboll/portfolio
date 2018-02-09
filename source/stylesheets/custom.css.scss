@@ -179,14 +179,22 @@ hr {
 }
 
 .footer {
-  color: #fff;
-  bottom: 0;
   background-color: #667582;
   border-top: 1px solid #ccc;
-  height: 250px;
+  bottom: 0;
+  color: #fff;
+  height: 230px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-top: 100px;
   text-align: center;
-  margin-top: -50px;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    padding-top: 70px;
+  }
 }
 
 .other-projects {
