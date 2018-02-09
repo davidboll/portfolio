@@ -17,3 +17,12 @@
         %h1= project[:name]
         %br
         %p= project[:description]
+        %br
+        .cols{style: "text-align: center;"}
+          %hr
+          %br
+          %br
+          %h4 See full project on GitHub
+          %br
+          %a{:href => project[:external_link], :target => '_blank'}>
+            %i.fab.fa-github.fa-5x
