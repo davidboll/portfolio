@@ -9,23 +9,19 @@ describe 'Index Page', type: :feature do
   #   end
   # end
   #
-  # it 'renders footer partial' do
-  #   visit '/'
-  #
-  #   expect(page).to have_selector 'footer'
-  #   within 'footer' do
-  #     expect(page).to have_content 'My Portfolio'
-  #     expect(page).to have_content 'Built using the awesome Middleman framework'
-  #   end
-  # end
+  it 'renders cv' do
+    visit '/'
+      expect(page).to have_content 'MediYoga'
+      expect(page).to have_content 'AIK Media'
+  end
 
   it 'renders footer partial' do
     visit '/'
 
     expect(page).to have_selector 'footer'
     within 'footer' do
-      expect(page).to have_content 'That\'s it..'
-      expect(page).to have_content '@bollen @AIK @craftacademy'
+      expect(page).to have_content 'Oh, well. What\'s a fo'
+      #expect(page).to have_content '@bollen @AIK @craftacademy'
     end
   end
 
