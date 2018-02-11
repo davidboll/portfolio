@@ -14,7 +14,7 @@ We are learning HTML, JavaScript, CSS and having all the parts and bits working 
 
 Well fortunately for you I've added my site to GitHub-pages so you can see my portfolio right here --> https://davidboll.github.io/portfolio/ I've also deployd on my own domain - https://portfolio.davidboll.se/ :)
 
-## Acconlegements
+## Acknowledgements
 
 I would like to thank the coaches of CraftAcademy
 
