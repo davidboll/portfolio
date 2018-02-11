@@ -16,15 +16,31 @@
       %h4 So.. who's this David that you have been hearing so much about?
       %br
       %p Well, David is an amazing person, he's a cat-person.. <br>I mean like what more do you need to know?
+      %br
+      %hr
+      %br
+      %h4 David's skillset includes, but is not limited to
+      %span
+        %i.fas.fa-code.fa-3x{alt: 'Coding', title: 'Coding'}
+        %i.fab.fa-js.fa-3x{alt: 'JavaScript', title: 'JavaScript'}
+        %i.fab.fa-angular.fa-3x{alt: 'Angular', title: 'Angular'}
+        %i.fab.fa-css3-alt.fa-3x{alt: 'CSS', title: 'CSS'}
+        %i.fas.fa-film.fa-3x{alt: 'Filming', title: 'Filming'}
+        %i.fas.fa-camera.fa-3x{alt: 'Photography', title: 'Photography'}
 
--# .container-fluid.middle
--#   .row
--#     .col.cv
--#
--#       %h1 Curriculum vitae!
--#       %br
--#       %h4 Yeah, these are a bunch of words..
--#       %br
--#       - data.cv.each do |job|
--#         %h4= job[:name]
--#         %p= job[:short_description]
+.container-fluid.middle
+  .row
+    .col.cv
+
+      %h1 Curriculum vitae!
+      %br
+      %h4 Yeah, these are a bunch of words..
+      %br
+      - data.cv.each do |job|
+        %i.fas.fa-angle-down.fa-2x
+        %br
+        %br
+        .col
+          %h6= job[:date]
+          %h4= job[:name]
+          %p= job[:role]

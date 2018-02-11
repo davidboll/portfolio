@@ -46,13 +46,14 @@
    <br><br><b><i>"Our client is a financial institution that wants to allow its customers to withdraw funds from their accounts using an Automatic Teller Machine (ATM). They have turned to us for a prototype of a system with limited functionality. Our job is to write a simple Ruby program that can be run in the Interactive Ruby Shell (IRB)."</i></b>
    <br><br>This was a great challange that forced us to really put our new knowlege about Ruby to the test.
 
-
-# - name: FizzBuzz
-#   description: My first Test driven ruby project
-#   coverimage: 'fizz-buzz-cover.png'
-#   date: '2018-01-05'
-#
-# - name: FizzBuzz
-#   description: My first Test driven ruby project
-#   coverimage: 'fizz-buzz-cover.png'
-#   date: '2018-01-05'
+- id: 5
+  name: MediYoga.se
+  short_description: New homepage for MediYoga Sverige
+  coverimage: mediyoga-cover
+  tags: Wordpress
+  date: 2018-01-28
+  internal_link: mediyoga-sverige.html
+  external_link: https://www.mediyoga.se
+  description: MediYoga Sverige needed a new webite that...
+   <br><br><b><i>"The client is tired of their present website.. which sucks!"</i></b>
+   <br><br>This was a great challange that forced us to really put our new knowlege about Ruby to the test.

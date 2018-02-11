@@ -1,21 +1,23 @@
 - id: 0
-  name: AIK Media
-  role: Filming, postproduction
-  short_description: Heja heja AIK - Dricka bärs!
-  coverimage: 'AIK-cover'
-  date: 2010-2012
-  link:
-
-- id: 1
   name: MediYoga Shop
+  role: CEO
   short_description: Feel better with MediYoga
   coverimage: 'mediyoga-cover'
   date: 2008 - today
-  link:
+  link: www.mediyogashop.se
+
+- id: 1
+  name: AIK Media
+  role: Post-production
+  short_description: Heja heja AIK - Dricka bärs!
+  coverimage: 'AIK-cover'
+  date: 2010 - 2012
+  link: www.aikfotboll.se
 
 - id: 2
   name: Balans Online
+  role: Part owner, Art director
   short_description: Yoga and Mindfulness Online
   coverimage: 'balans-cover'
   date: 2014 - today
-  link:
+  link: www.balansonline.se
