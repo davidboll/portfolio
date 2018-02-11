@@ -50,10 +50,10 @@
   name: MediYoga.se
   short_description: New homepage for MediYoga Sverige
   coverimage: mediyoga-cover
-  tags: Wordpress
+  tags: Wordpress, HTML, CSS
   date: 2018-01-28
   internal_link: mediyoga-sverige.html
   external_link: https://www.mediyoga.se
-  description: MediYoga Sverige needed a new webite that...
-   <br><br><b><i>"The client is tired of their present website.. which sucks!"</i></b>
-   <br><br>This was a great challange that forced us to really put our new knowlege about Ruby to the test.
+  description: MediYoga Sverige needed a new modern webite with Wordpress as CMS
+   <br><br><b><i>"We want a website that is up to date with todays tecnologies.  We need to be able to add and list Yoga Centers and instructors. We want a sleek and clean website that is easy on the eyes."</i></b>
+   <br><br>This was a great project that challanged med to put all my knowlege about HTML, CSS and the Wordpress-CMS to the test.

@@ -1,0 +1,28 @@
+- project = data.projects.select { |project| project[:id] == 5 }.first
+%a.getback{:href => 'index.html'}> << Take me back home
+.container-fluid.bg-dark
+  .row
+    .col-md-6.height-full.left-col{style: "background-image: url(images/#{project[:coverimage]}-dark.png);"}
+      .cols.otherProjects
+        %h1= project[:name]
+        %h5= project[:short_description]
+    .col-md-6.height-full.right
+      .cols.otherProjects
+        = partial 'partials/_come-at-me'
+
+.container-fluid
+  .row
+    .col.description{style: "background-color: #227093;"}
+      .cols.singleProject
+        %h1= project[:name]
+        %br
+        %p= project[:description]
+        %br
+        .cols
+          %hr
+          %br
+          %br
+          %h4 See full website
+          %br
+          %a{:href => project[:external_link], :target => '_blank'}>
+            %i.fas.fa-external-link-square-alt.fa-4x
