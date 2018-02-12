@@ -1,0 +1,211 @@
+.bg-dark {
+  color: #fff;
+  z-index: 1;
+  background-color: white;
+  position: relative; }
+
+a {
+  color: #cccccc;
+  text-decoration: none; }
+
+a:hover {
+  color: #eee;
+  text-decoration: underline; }
+
+.fa-github, .fa-external-link-square-alt, a, a:hover {
+  color: #fff; }
+
+.fa-3x {
+  padding: 25px; }
+
+.getback {
+  background-color: #fff;
+  height: 50px;
+  left: 0px;
+  margin: 0 auto;
+  opacity: 1;
+  padding: 12px;
+  position: fixed;
+  top: 0px;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  z-index: 999; }
+
+.getback, a:hover {
+  color: #666;
+  text-decoration: none; }
+
+.getback, a {
+  color: #ccc; }
+
+.welcome {
+  color: #fff;
+  left: 50%;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.aboutMe {
+  background-color: #58B19F;
+  border-top: 0;
+  color: #fff;
+  padding: 150px 50px; }
+
+.cv {
+  background-color: #006266;
+  border-top: 0;
+  color: #fff;
+  padding: 150px 50px; }
+
+.singleProject {
+  text-align: center; }
+
+.otherProjects {
+  color: #fff;
+  left: 50%;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+@media (min-width: 768px) {
+  .height-full {
+    height: 100vh; }
+
+  .otherProjects {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    position: absolute; } }
+@media (max-width: 767.98px) {
+  .height-full {
+    height: 100%; }
+
+  .otherProjects {
+    overflow: hidden;
+    padding: 20px;
+    position: relative; } }
+.my-other-projects {
+  margin-top: 45px;
+  text-align: center; }
+
+.left-col {
+  background-attachment: fixed;
+  background-color: #3c3e4e;
+  background-position: top center;
+  background-repeat: no-repeat; }
+
+hr {
+  background-color: #fff;
+  height: 1px;
+  border: 0; }
+
+.card-body {
+  background-color: #3c3e4e;
+  color: #fff;
+  display: block;
+  height: 225px;
+  text-align: center;
+  width: 343px; }
+
+.description {
+  color: #fff;
+  padding: 50px;
+  z-index: 800; }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .card-body {
+    width: 506px; }
+
+  .description {
+    padding: 50px; } }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card-body {
+    width: 210px; }
+
+  .description {
+    padding: 100px 100px; } }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .card-body {
+    width: 290px; }
+
+  .description {
+    padding: 100px 150px; } }
+@media (min-width: 1200px) {
+  .card-body {
+    width: 350px; }
+
+  .description {
+    padding: 150px 350px; } }
+.right {
+  background-color: #3c3e4e; }
+
+.middle {
+  text-align: center;
+  margin-top: 0;
+  background-color: #fff;
+  z-index: 2;
+  position: relative; }
+
+.footer {
+  background-color: #667582;
+  border-top: 1px solid #ccc;
+  bottom: 0;
+  color: #fff;
+  height: 230px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 100px;
+  text-align: center; }
+
+@media (max-width: 576px) {
+  .footer {
+    padding-top: 70px; } }
+.other-projects {
+  height: 100% auto; }
+
+.panel .front {
+  height: inherit;
+  position: relative;
+  top: 0;
+  z-index: 900;
+  text-align: center;
+  -webkit-transform: rotateX(0deg) rotateY(0deg);
+  -moz-transform: rotateX(0deg) rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+
+.panel .back {
+  height: inherit;
+  position: absolute;
+  top: 0;
+  z-index: 950;
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+
+.panel.flip .front {
+  z-index: 900;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg); }
+
+.panel.flip .back {
+  z-index: 950;
+  -webkit-transform: rotateX(0deg) rotateY(0deg);
+  -moz-transform: rotateX(0deg) rotateY(0deg); }
